@@ -1,0 +1,57 @@
+
+.header {
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlXTEWEEUgSv7QdvWhJCs9B1oojGUCGiM1Xh4NhPQ6k6kZ5Du1') no-repeat;
+    background-position: 10% center;
+    background-size: contain;
+    background-color: var(--bgColor);
+    height: 5rem;
+    vertical-align: middle;
+}
+.main-navigation li, .main-navigation a {
+    position: relative;
+    left: 20%;
+    margin-top: 2%;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 120%;
+    list-style: none;
+    text-decoration: none;
+    padding-left: 10px;
+    color: var(--navColor);
+}
+
+.cover-image {
+    background: url('http://static5.uk.businessinsider.com/image/599fcaff53b50724008b45aa-480/a-builder-working-for-taylor-wimpey-builds-a-roof-on-an-estate-in-aylesbury-britain-february-7-2017.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top center;
+    width: auto;
+    height: 580px;
+}
+#main-content {
+    font-size: 160%;
+    text-align: center;
+    vertical-align: middle;
+    position: absolute;
+    top: 20rem;
+    color: var(--textColor);
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
+}
+#buttonToTestimonials a {
+    border-radius: 20px;
+    padding: 4px 4px 4px 4px;
+    position: relative;
+    top: 2rem;
+    color: var(--navColor);
+    background-color: orange;
+    text-decoration: none;
+}
+#buttonToTestimonials a:hover {
+    color: var(--navColor);
+    background-color: yellow;
+    padding: 8px 8px 8px 8px;
+    text-decoration: underline;
+    font-weight: bold;
+}
