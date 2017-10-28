@@ -19,6 +19,10 @@
     padding-left: 10px;
     color: var(--navColor);
 }
+.main-navigation #current {
+    color: orange;  /* var(--bgColor); */
+    font-weight: bold; 
+}
 
 .cover-image {
     background: url('http://static5.uk.businessinsider.com/image/599fcaff53b50724008b45aa-480/a-builder-working-for-taylor-wimpey-builds-a-roof-on-an-estate-in-aylesbury-britain-february-7-2017.jpg');
