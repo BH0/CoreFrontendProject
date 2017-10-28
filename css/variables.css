@@ -1,5 +1,7 @@
 body {
     --bgColor: grey;
     --navColor: brown;
-    --textColor: orange; 
+    --textColor: orange;
+    --contactBgColorA: yellow;
+    --contactBgColorB: orange; 
 }

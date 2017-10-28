@@ -1,0 +1,77 @@
+
+html{
+    min-height:100%;/* make sure it is at least as tall as the viewport */
+    position:relative;
+    overflow-x: hidden;
+}
+body{
+    height:100%; /* force the BODY element to match the height of the HTML element */
+}
+.contact-main-title {
+    padding-top: 6%;
+    text-align: center;
+    font-weight: bold;
+}
+#r {
+    padding-top: 6%;
+    text-align: center;
+    font-weight: bold;
+    display: inline;
+    color: var(--contactBgColorA);
+}
+#l {
+    padding-top: 6%;
+    text-align: center;
+    font-weight: bold;
+    display: inline;
+    color: var(--contactBgColorB);
+}
+
+@keyframes slideDown {
+    0% {
+        transform: translateY(-700px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+@keyframes slideUp {
+    0% {
+        transform: translateY(600px);
+    }
+    100% {
+        transform: translateY(-1px);
+    }
+}
+.left {
+    animation: slideDown 1.5s forwards;
+    background-color: var(--contactBgColorA);
+    width: 49.1%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    z-index: -1;
+}
+.left-content {
+    padding-top: 50%;
+    padding-left: 30%;
+}
+.right {
+    animation: slideUp 1.5s forwards;
+    float: right;
+    background-color: var(--contactBgColorB);
+    width: 50.9%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    overflow: hidden;
+    z-index: -1;
+}
+.right-content {
+    padding-top: 50%;
+    padding-left: 50%;
+}

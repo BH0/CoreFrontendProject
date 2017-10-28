@@ -7,7 +7,7 @@
           <meta name="description" content="Website">
           <meta name="author" content="BH0">
 
-        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/main.css" type="text/css">
 
     </head>
 
@@ -23,11 +23,37 @@
         </section>
         <section class="contact-main"> <!-- Left div will slide downm
                                             Right div will slide up -->
-            <div class="left"> <!-- Social media, phone / email, address -->
-                
+            <div class="contact-main-title">
+                <h2 id="l">Find Us</h2> | <h2 id="r">Contact Us</h2>
+            </div>
+                <div class="left">  <!-- Social media, phone / email, address -->
+                    <div class="left-content">
+                        0123 456789 <br/>
+                        example@email.com <br/>
+                        00 Address <br/>
+                        City / Town <br/>
+                        A01 23B
+                    </div>
             </div>
             <div class="right"> <!-- Contact Form -->
+                <div class="right-content">
 
+                    <form method="post" axtion="contact.php" name="contactForm" onsubmit="return validateForm();">
+                        <label>Name</label>
+                        <input type="text" name="contactName" id="contactName" />
+                        <br/>
+                        <label>Email</label>
+                        <input type="text" name="emailAddress" id="emailAddress" />
+                        <br/>
+                        <label>Message</label> <br/>
+                        <!-- To Do: Attempt to implement a character count / max + min character length on this -->
+                        <textarea type="text" name="contactMessage" id="messageBox">
+                        </textarea>
+                        <br/>
+                        <input type="submit" value="Submit" />
+                    </form>
+                    <div id="form-output"></div>
+                </div>
             </div>
         </section>
         <section class="footer">
@@ -36,7 +62,6 @@
 
             Copyright © 2017 All rights reserved
         </section>
-
-        <script src="js/index.js"></script>
+        <script src="js/contact.js"></script>
     </body>
 </html>
