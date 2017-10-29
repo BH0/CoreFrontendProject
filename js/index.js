@@ -153,6 +153,7 @@ function animate(begin, end, finalTask) {
   }, 1000 / 60);
 }
 
+
 window.addEventListener('load', function() {
   //document.getElementById('spinner').style.display = 'none';
   var carousel = Carousel.carousel = document.getElementById('carousel'),
@@ -205,6 +206,7 @@ window.addEventListener('load', function() {
     });
   };
 });
+
 
 /*
 var Carousel = {
