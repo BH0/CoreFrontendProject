@@ -35,18 +35,18 @@
                 <video loop muted autoplay poster="" class="fullscreen-bg__video">
                     <!--
                     <iframe src="http://www.youtube.com/embed/W7qWa52k-nE"
-                       width="560" height="315" frameborder="0" allowfullscreen></iframe> --
+                       width="560" height="315" frameborder="0" allowfullscreen></iframe> -->
                    <source src="/assets/small.mp4" type="videl/mp4">
                     <!-- <source src="https://youtu.be/gqUPGa15Oto" type="video/ogg"> -->
                 </video>
         </div>
-
-            <!-- Quick Message Chat-in-browser -->
-            <div class="chat-box">
-                <p> Anything we can help you with just now? </p>
-                <textarea></textarea>
-                <input type="submit" value="send" />
-            </div>
+<!--
+        <!-- Quick Message Chat-in-browser -->
+        <div class="chat-box">
+            <p> Anything we can help you with just now? </p>
+            <textarea></textarea>
+            <input type="submit" value="send" />
+        </div>
 
         <!-- Table -->
         <div class="services-main">
@@ -70,11 +70,14 @@
 
 
 
-        <section class="footer">
-            <!-- Site Map may go here -->
-            <!-- Contact details & Social Media -->
+        <!-- Note: Had to resort to inline styling as for some reason
+        this element's external styling wasn't being applied; -->
+        <section class="footer" id="footer-services"
+        style="position:absolute;bottom:0px;background:var(--bgColor);width:100%;text-align:center;">
+                <!-- Site Map may go here -->
+                <!-- Contact details & Social Media -->
 
-            Copyright © 2017 All rights reserved
+                Copyright © 2017 All rights reserved
         </section>
 
         <script src=""></script>

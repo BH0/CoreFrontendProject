@@ -156,3 +156,24 @@
   }
 }
 /******************************************************************************/
+
+.footer #footer-services {
+    /* position: fixed;
+    left: 100px; */
+    display: block;
+    /* position: relative; */
+    background-color: var(--bgColor);
+    padding-top: 20px;
+    text-align: center;
+    width: 100%;
+}
+.footer #footer-contact {
+    position: absolute;
+    /* position: relative; */
+    background-color: var(--bgColor);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    width: 100%;
+    bottom: 0px;
+}

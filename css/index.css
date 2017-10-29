@@ -138,9 +138,9 @@
   visibility: hidden;
 }
 
-.footer {
+.footer #footer-index {
     /* position: absolute; */
-    position: relative; 
+    position: relative;
     background-color: var(--bgColor);
     padding-top: 20px;
     padding-bottom: 20px;
@@ -148,3 +148,24 @@
     width: 100%;
     bottom: 0px;
 }
+/*
+.footer #footer-services {
+    position: absolute;
+    /* position: relative; *
+    background-color: var(--bgColor);
+    padding-top: 20px;
+    text-align: center;
+    width: 100%;
+    bottom: 1px;
+}
+.footer #footer-contact {
+    position: absolute;
+    /* position: relative; *
+    background-color: var(--bgColor);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    width: 100%;
+    bottom: 0px;
+}
+*/ 
